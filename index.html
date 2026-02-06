@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud Marcellana | Portfolio</title>
+  <meta name="description" content="Cloud Marcellana - Personal Portfolio Website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-dot"></span>
+        <span class="brand-text">Cloud.</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+
+      <section class="hero-left">
+        <p class="hello">Hi, I'm</p>
+
+        <h1 class="title">
+          Cloud <span class="accent">Marcellana</span>
+        </h1>
+
+        <p class="role">
+          <span class="role-accent" id="typed"></span><span class="cursor">|</span>
+        </p>
+
+        <p class="desc">
+          BS Computer Science (Software Engineering) student who builds clean and responsive websites,
+          plus interactive apps and projects for school and real-world practice.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">Let's Talk</a>
+          <a class="btn ghost" href="#projects">View Portfolio</a>
+        </div>
+
+        <div class="socials">
+          <a class="social" href="https://github.com/CloudMarcellana" target="_blank">GH</a>
+          <a class="social" href="https://www.linkedin.com/in/cloud-marshall-bruce-marcellana-87662830a/" target="_blank">in</a>
+          <a class="social" href="marcellanacloud15@gmail.com">@</a>
+        </div>
+      </section>
+
+      <aside class="hero-right">
+        <div class="hero-image">
+          <img src="assets/dp.jpg" alt="Hero Image"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+          <div class="hero-fallback" style="display:none;">
+            Add your hero image in assets/hero.jpg
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m a Computer Science student from FEU Institute of Technology and currently an intern developing my skills in Web Development and Quality Assurance.
+        I am continuously working on refining my technical abilities and gaining hands-on experience to grow as a future IT professional.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="chips">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Pythton</span>
+        <span class="chip">C++</span>
+        <span class="chip">Flutter</span>
+        <span class="chip">Git/GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>ABaKaDa+ – Gamified Filipino Language Learning App</h3>
+        <p>
+          ABaKaDa+ is an educational mobile application designed to enhance Filipino literacy through interactive lessons, game-based levels, and adaptive learning techniques. The app integrates structured learning mechanics to help users improve letter recognition, pronunciation, and comprehension.
+        </p>
+        <p><strong>Technologies:</strong> Flutter, Dart, Firebase</p>
+      </div>
+
+      <div class="project">
+        <h3>Meraki Emporium PH – Suit & Sip Co. Website</h3>
+        <p>
+          A personal project developed for Meraki Emporium PH to showcase its menu, products, and brand identity. The site features organized menu sections, category-based layout, and a clean user interface to present the café’s offerings in a visually engaging way.
+        </p>
+        <p><strong>Technologies:</strong> React, Next.js, CSS</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+
+      <div class="contact-card">
+        <p><strong>Email:</strong>
+          <a href="marcellanacloud15@gmail.com">marcellanacloud15@gmail.com</a>
+        </p>
+
+        <p><strong>GitHub:</strong>
+          <a href="https://github.com/CloudMarcellana" target="_blank">
+            CloudMarcellana
+          </a>
+        </p>
+
+        <p><strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/cloud-marshall-bruce-marcellana-87662830a/" target="_blank">
+            Cloud Marshall Bruce Marcellana
+          </a>
+        </p>
+      </div>
+
+      <!-- ===== HONOR PLEDGE (ONLY ONE) ===== -->
+      <div class="pledge">
+        <h3>Honor Pledge</h3>
+        <p>
+          I, <strong>Cloud Marshall Bruce Marcellana</strong>, pledge that I have completed
+          this portfolio task honestly and independently, and that the work submitted is my own.
+        </p>
+        <p><strong>Date:</strong> February 6, 2026</p>
+      </div>
+
+      <!-- ===== FOOTER (ONLY ONE) ===== -->
+      <footer class="footer">
+        <p>© 2026 Cloud Marcellana</p>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
